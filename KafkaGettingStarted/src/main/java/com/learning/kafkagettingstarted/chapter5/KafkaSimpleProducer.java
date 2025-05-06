@@ -44,7 +44,7 @@ public class KafkaSimpleProducer {
                                 "This is order : " + i         //Message Content
                         );
 
-                System.out.println("Sending Message : "+ kafkaRecord.toString());
+                System.out.println("Sending Message to Orders topic : "+ kafkaRecord.toString());
 
                 //Publish to Kafka
                 simpleProducer.send(kafkaRecord);

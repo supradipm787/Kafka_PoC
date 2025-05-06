@@ -44,7 +44,7 @@ public class KafkaUseCaseProducer {
                                 "This is student : " + i         //Message Content
                         );
 
-                System.out.println("Sending Message : "+ kafkaRecord.toString());
+                System.out.println("Sending Message to usecases : "+ kafkaRecord.toString());
 
                 //Publish to Kafka
                 simpleProducer.send(kafkaRecord);

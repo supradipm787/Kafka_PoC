@@ -53,7 +53,7 @@ public class KafkaSimpleConsumer {
 
             //Print batch of records consumed
             for (ConsumerRecord<String, String> message : messages)
-                System.out.println("Message fetched : " + message);
+                System.out.println("Message fetched from Orders: " + message);
         }
 
 
